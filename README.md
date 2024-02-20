@@ -10,5 +10,4 @@
 </br>
 
 24.02.20 ~ 
-수학 연습용 문제들[https://www.acmicpc.net/workbook/view/4658]
-(백준)
+수학 연습용 문제들[https://www.acmicpc.net/workbook/view/8174](백준)
