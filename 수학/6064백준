@@ -1,0 +1,41 @@
+```java
+public class Main {
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(System.in);
+        int loopNo = sc.nextInt();
+        int[] inputVal = new int[loopNo*4];
+        for (int i = 0; i < loopNo ; i++){
+            inputVal[4*i] = sc.nextInt();
+            inputVal[4*i+1] = sc.nextInt();
+            inputVal[4*i+2] = sc.nextInt();
+            inputVal[4*i+3] = sc.nextInt();
+        }
+        findYear(inputVal);
+        sc.close();
+    }
+    public static void findYear(int[] inputVal){
+        int tmp1 = 0;
+        int tmp2 = 0;
+        int m,n,x,y = 1;
+        int result=0;
+        for(;;){ 
+            m = inputVal[tmp1*4];
+            n = inputVal[tmp1*4+1];
+            x = inputVal[tmp1*4+2];
+            y = inputVal[tmp1*4+3];
+            for(;;){
+                if((m*tmp2+x)%n==y){
+                    System.out.println(m*tmp2+x);
+                    break;
+                }
+                if(tmp2>m*n){System.out.println(m*tmp2+x);break;}
+                tmp2++;
+            }
+            tmp1++;
+        }
+    }
+}
+```
+
+원래는 유클리드 호제 이용하는건데
+그냥 m과n의 최소공배수가 아닌 m*n으로 해도 됐음
