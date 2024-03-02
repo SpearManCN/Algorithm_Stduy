@@ -3,8 +3,8 @@
 
 </br></br></br></br>
 ### 이전에 풀어놓은 문제들
-<image src = "pictures/2.png"
+<image src = "pictures/2.png">
 </br>
-<image src = "pictures/3.png"
+<image src = "pictures/3.png">
 </br>
-<image src = "pictures/4.png"
+<image src = "pictures/4.png">
