@@ -6,7 +6,7 @@ class Solution {
         String color = board[h][w];
         int count = 0;
         if(board.length>h+1){ //밑
-            if(board[h+1].length>w){
+            if(board[h+1].length>w){ 
                 if(board[h+1][w].equals(color)){
                     count++;
                 }
