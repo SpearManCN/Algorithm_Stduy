@@ -1,6 +1,6 @@
 ```java
 class Solution {
-    public int solution(int[] arr) {
+    public int solution(int[] arr) { 
         int tmp = arr[0];
         for(int i=1; i<arr.length ; i++){
             tmp = logic(arr[i],tmp);
