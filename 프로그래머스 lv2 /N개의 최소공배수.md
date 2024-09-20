@@ -6,7 +6,7 @@ class Solution {
             tmp = logic(arr[i],tmp);
         }
         return tmp;
-    }
+    } 
     public int logic(int x, int y){
         int tmp = 0;
         if(x>y){
