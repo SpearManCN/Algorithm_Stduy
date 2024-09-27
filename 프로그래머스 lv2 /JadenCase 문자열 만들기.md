@@ -1,7 +1,7 @@
 ```java
 class Solution {
     public String solution(String s) {
-        
+         
         s = s.toLowerCase();
         int length = s.length(); 
         String[] tmp = s.split("");
