@@ -1,6 +1,6 @@
 ```java
 import java.util.*;
-class Solution {
+class Solution { 
     public int solution(int[] citations) { 
         Arrays.sort(citations);
  
