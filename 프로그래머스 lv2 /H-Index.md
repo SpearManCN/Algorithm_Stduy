@@ -1,4 +1,4 @@
-```java 
+```java  
 import java.util.*; 
 class Solution {  
     public int solution(int[] citations) { 
