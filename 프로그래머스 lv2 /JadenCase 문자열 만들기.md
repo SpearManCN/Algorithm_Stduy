@@ -4,7 +4,7 @@ class Solution {
          
         s = s.toLowerCase(); 
         int length = s.length();  
-        String[] tmp = s.split(""); 
+        String[] tmp = s.split("");  
 
         boolean flag = true; 
         for(int i=0; i<length; i++){ 
